@@ -33,17 +33,17 @@ global.APIKeys = {
 }
 
 //settings
-global.owner = ['27634090203',''] //owner number +27634090203
-global.wame = ['27634090203'] 
-global.pemilik = ['27634090203'] //owner number +27634090203
-global.premium = ['27634090203'] //premium number +27634090203
-global.pengguna = 'Drips' //username
-global.footer = 'ZIM BOT INC'
-global.botnma = 'ZIM BOT INC' //bot name
-global.botname = 'ZIM BOT V4'
-global.ownernma = 'Drips' //owner name
-global.packname = 'Drips' //sticker package name
-global.author = 'By Drips Memes' //sticker author name
+global.owner = ['254768371432',''] //owner number +27634090203
+global.wame = ['254768371432'] 
+global.pemilik = ['254768371432'] //owner number +27634090203
+global.premium = ['254768371432'] //premium number +27634090203
+global.pengguna = 'prince' //username
+global.footer = 'PRINCE BOT INC'
+global.botnma = 'PRINCE BOT INC' //bot name
+global.botname = 'PRINCE BOT V4'
+global.ownernma = '𝙥𝙧𝙞𝙣𝙘𝙚' //owner name
+global.packname = '𝙥𝙧𝙞𝙣𝙘𝙚' //sticker package name
+global.author = '𝙥𝙧𝙞𝙣𝙘𝙚 𝙨𝙩𝙞𝙘𝙠𝙚𝙧' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '🔵' //sp
@@ -52,10 +52,10 @@ global.dripsreadgroup = false
 global.dripsreadall = false
 global.dripsrecord = false
 global.available = false
-global.unavailable = true
+global.unavailable = true                                   
 global.limittot = 100,
 global.thumb = fs.readFileSync('./Zimbot/drips.jpg')
-global.reactmoji = '🇿🇼'
+global.reactmoji = '🇰🇪'
 global.imgjoinrpg = fs.readFileSync('./image/joinrpg.jpg')
 global.imgmining = fs.readFileSync('./image/mining.jpg')
 global.imgdevil = fs.readFileSync('./image/img/devil.jpg')
@@ -72,10 +72,10 @@ global.f5 = 'application/pdf'
 global.f6 = 'application/vnd.android.package-archive'
 global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text='
 global.mess = {
-    success: 'Takaenda Done!',
+    success: 'successful  Done!',
     admin: '*This feature is only for admin!*',
-    botAdmin: '*zim bot  must be admin first!*',
-    owner: '*this feature is only for zimbot owner*',
+    botAdmin: '*prince bot  must be admin first!*',
+    owner: '*this feature is only for my owner wa.me/254768371432*',
     group: '*Feature is only for groups!*',
     grouponly: '*Group Mode Only*',
     private: 'Features Used Only For Private Chat!',
