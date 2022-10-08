@@ -107,9 +107,9 @@ var prefix = prefa ? /^[°┊π÷┊¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi.
 const isCmd = body.startsWith(prefix)
 const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
 const args = body.trim().split(/ +/).slice(1)
-const pushname = m.pushName || "No Name"
+const pushname = m.pushName || "prince"
 const botNumber = await ZimBotInc.decodeJid(ZimBotInc.user.id)
-const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+const isCreator = [254768371432].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
 const itsMe = m.sender == botNumber ? true : false
 const text = q = args.join(" ")
 const from = m.chat
@@ -252,11 +252,11 @@ let picak = picaks[Math.floor(Math.random() * picaks.length)]
    if (chats) {
   if (!('mute' in chats)) chats.mute = false
   if (!('chatbot' in chats)) chats.chatbot = false
-  if (!('antilink' in chats)) chats.antilink = false
+  if (!('antilink' in chats)) chats.antilink = true
   if (!('antilinkyt' in chats)) chats.antilinkyt = false
   if (!('autoblock' in chats)) chats.autoblock = false
   if (!('isWelcome' in chats)) chats.isWelcome = false
-  if (!('antilinkall' in chats)) chats.antilinkall = false
+  if (!('antilinkall' in chats)) chats.antilinkall = true
   if (!('antiytchannel' in chats)) chats.antiytchannel = false
   if (!('antitiktok' in chats)) chats.antitiktok = false
   if (!('antitelegram' in chats)) chats.antitelegram = false
@@ -277,7 +277,7 @@ let picak = picaks[Math.floor(Math.random() * picaks.length)]
    antilink: false,
    antilinkyt: false,
    isWelcome: false,
-   antilinkall: false,
+   antilinkall: true,
    antiytchannel: false,
    antitiktok: false,
    antitelegram: false,
@@ -291,7 +291,7 @@ let picak = picaks[Math.floor(Math.random() * picaks.length)]
    antivn: false,
    antivideo: false,
  }
- let setting = global.db.settings[botNumber]
+ let setting = global.db.settings[254768371432]
  if (typeof setting !== 'object') global.db.settings[botNumber] = {}
     if (setting) {
 if (!isNumber(setting.status)) setting.status = 0
